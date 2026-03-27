@@ -1,6 +1,6 @@
 # ExpenseFlow — Expense Reporting & Multi-Level Approval Pipeline
 
-> A production-grade Spring Boot REST API that automates enterprise expense reporting — from submission and policy violation detection to multi-level approval workflows with a full finance audit trail.
+> A production-grade Spring Boot REST API that automates enterprise expense reporting from submission and policy violation detection to multi-level approval workflows with a full finance audit trail.
 
 Built around real HR/finance compliance requirements: the same problems handled at scale by platforms like ADP, Workday, and Concur.
 
@@ -8,7 +8,7 @@ Built around real HR/finance compliance requirements: the same problems handled 
 
 ## Why This Exists
 
-Manual expense review is slow, inconsistent, and leaks money. A single undetected duplicate claim or missed receipt policy can cost an organization thousands. ExpenseFlow automates the entire pipeline — employees submit, the policy engine flags violations instantly, managers approve or escalate, and finance gets a clean audit summary — all through a secured, role-based API.
+Manual expense review is slow, inconsistent, and leaks money. A single undetected duplicate claim or missed receipt policy can cost an organization thousands. ExpenseFlow automates the entire pipeline employees submit, the policy engine flags violations instantly, managers approve or escalate, and finance gets a clean audit summary all through a secured, role-based API.
 
 ---
 
