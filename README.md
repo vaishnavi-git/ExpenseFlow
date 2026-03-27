@@ -265,16 +265,3 @@ spring.jpa.hibernate.ddl-auto=validate
 
 ---
 
-## Resume Bullet Points
-
-**Use these directly on your resume:**
-
-- Engineered a Spring Boot REST API implementing a 7-rule policy engine that automatically evaluates every expense submission for over-limit claims, missing receipts, duplicate entries, and budget breaches — classifying violations by severity (LOW to CRITICAL) and triggering a multi-level approval workflow (PENDING → APPROVED / REJECTED / ESCALATED) with a full finance audit trail
-- Secured all endpoints using JWT authentication and role-based access control (EMPLOYEE, MANAGER, FINANCE_MANAGER, ADMIN) via Spring Security with BCrypt hashing and stateless session management; designed custom JPQL queries in Spring Data JPA to aggregate monthly spend per employee and detect budget threshold breaches in real time
-- Built JUnit unit tests with Mockito covering all 7 policy violation scenarios and Spring MockMvc integration tests validating the full approval workflow; containerized with Docker and exposed Prometheus metrics via Spring Boot Actuator for Grafana observability with a GitHub Actions CI/CD pipeline running tests on every push
-
----
-
-## License
-
-MIT
